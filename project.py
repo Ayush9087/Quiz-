@@ -1,4 +1,3 @@
-# SSC CGL Maths Quiz in Hinglish (Corrected Answer Keys)
 
 quiz = {
     "Ek aadmi ek vastu ₹720 mein kharidta hai aur use 10% loss par bechta hai. Selling Price kya hoga?":
@@ -44,9 +43,9 @@ for question, data in quiz.items():
     answer = input("Apna answer dijiye (A/B/C/D): ").upper()
     
     if answer == data[1]:
-        print("✅ Sahi jawab!\n")
+        print(" Sahi jawab!\n")
         score += 1
     else:
-        print(f"❌ Galat! Sahi jawab hai {data[1]}\n")
+        print(f" Galat! Sahi jawab hai {data[1]}\n")
 
 print(f"Aapka final score hai {score}/{len(quiz)}")
